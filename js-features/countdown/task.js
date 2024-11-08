@@ -1,4 +1,5 @@
 const spanTimer = document.getElementById('timer')
+
 setInterval(() => {
     let currentValue = Number(spanTimer.textContent);
     if (currentValue >= 0) {
